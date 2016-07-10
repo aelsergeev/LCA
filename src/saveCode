@@ -1,0 +1,57 @@
+//        g.drawRect(arrayX, arrayY, (2*vertexCount-1)*20, 20);
+//        g.drawRect(arrayX, arrayY+25, (2*vertexCount-1)*20, 20);
+//        if (vertexCount != 1) {
+//        for (int i = 0; i < 2 * vertexCount - 1; i++) {
+//            lsqVD += l;
+//            if (i != count-1) {
+//                g.setColor(Color.black);
+//                g.drawLine(arrayX+lsqVD, arrayY, arrayX+lsqVD, arrayY+20);
+//                g.drawLine(arrayX+lsqVD, arrayY+25, arrayX+lsqVD, arrayY+25+20);
+//                if (sqVertex[i] < 10)
+//                    g.drawString(new Integer(sqVertex[i]).toString(), arrayX+lsqVD+digitL-8, arrayY+digitL);
+//                else
+//                    g.drawString(new Integer(sqVertex[i]).toString(), arrayX+lsqVD+digitL-11, arrayY+digitL);
+//
+//                if (sqDepth[i] < 10)
+//                    g.drawString(new Integer(sqDepth[i]).toString(), arrayX+lsqVD+digitL-8, arrayY+25+digitL);
+//                else
+//                    g.drawString(new Integer(sqDepth[i]).toString(), arrayX+lsqVD+digitL-11, arrayY+25+digitL);
+//            } else {
+//                g.setColor(Color.black);
+//                g.fillRect(arrayX + lsqVD, arrayY, 20, 20);
+//                g.fillRect(arrayX + lsqVD, arrayY + 25, 20, 20);
+//                g.setColor(Color.white);
+//                if (sqVertex[i] < 10)
+//                    g.drawString(new Integer(sqVertex[i]).toString(), arrayX+lsqVD+digitL-8, arrayY+digitL);
+//                else
+//                    g.drawString(new Integer(sqVertex[i]).toString(), arrayX+lsqVD+digitL-11, arrayY+digitL);
+//
+//                if (sqDepth[i] < 10)
+//                    g.drawString(new Integer(sqDepth[i]).toString(), arrayX+lsqVD+digitL-8, arrayY+25+digitL);
+//                else
+//                    g.drawString(new Integer(sqDepth[i]).toString(), arrayX+lsqVD+digitL-11, arrayY+25+digitL);
+//            }
+//        }
+//        g.drawRect(arrayX, arrayY+50, vertexCount*20, 20);
+//
+//        if (vertexCount != 1) {
+//        for (int i = 0; i < vertexCount; i++) {
+//            lfv += l;
+//            if (colorVertex[i].equals(ovalBlack)) {
+//                g.setColor(Color.black);
+//                g.drawLine(arrayX+lfv, arrayY+50, arrayX+lfv, arrayY+50+20);
+//                if (firstVisit[i] < 10)
+//                    g.drawString(new Integer(firstVisit[i]).toString(), arrayX+lfv+digitL-8, arrayY+50+digitL);
+//                else
+//                    g.drawString(new Integer(firstVisit[i]).toString(), arrayX+lfv+digitL-11, arrayY+50+digitL);
+//            } else {
+//                g.setColor(Color.black);
+//                g.fillRect(arrayX+lfv, arrayY+50, 20, 20);
+//                g.setColor(Color.white);
+//                if (firstVisit[i] < 10)
+//                    g.drawString(new Integer(firstVisit[i]).toString(), arrayX+lfv+digitL-8, arrayY+50+digitL);
+//                else
+//                    g.drawString(new Integer(firstVisit[i]).toString(), arrayX+lfv+digitL-11, arrayY+50+digitL);
+//        }
+//        }
+//        }
